@@ -1,0 +1,137 @@
+.prix 
+
+{ 
+	color: orange; 
+
+}
+
+.gandalf					/*Contraste de l'image*/
+{
+
+	opacity: 0.4;
+}
+
+
+.reward							/*position, aspect du texte "reward*/
+
+ {
+
+	position: absolute;
+
+	top: 0;
+
+	margin: 6%;
+
+	padding: 20px 10px 10px 10px;
+
+	border-radius: 20px;
+
+	font-size: 1.3em;
+
+	line-height: 120%;
+
+	background-color: rgba(255, 255, 255, 0.7);
+
+	
+ }
+
+
+
+
+
+
+
+
+.name								/*position,aspect du nom*/
+
+
+
+{
+
+	position: absolute;
+
+	top: 25%;
+
+	left: 48%;
+
+	transform: translate(-50%, -48%);
+
+	font-size: 3em;
+
+	color: white;
+
+}
+
+
+#dead	
+
+{
+
+	color: red;  
+	position: absolute;
+
+	top: 0;
+
+	margin: 20%;
+
+	padding: 10px 10px 10px 10px;
+
+	font-size: 3em;
+
+
+}
+
+
+
+ .survol:hover .gandalf				/*contraste de l'image au survol*/
+
+{
+
+      opacity:1;
+
+ }
+
+
+
+ .survol:hover .reward							/*Efface le reward au survol*/					
+
+{
+
+	display:none;
+
+}
+
+
+
+.survol:hover .name							/*Déplace et réduit le nom au  survol*/
+
+{
+
+
+
+	font-size: 3em;
+
+	top: 60%;
+
+}
+
+.precious
+
+{
+
+	text-align: right;
+
+
+}
+
+.jumb 
+
+{ 
+
+	background-color:dimgray; color:white;
+
+ }
+
+  
+
+
